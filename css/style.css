@@ -9,15 +9,22 @@ body{
     background-color: rgb(245,245,245);
 }
 
+.container{
+    max-width: 900px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
 header{
     background-color: white;
 }
 
 header > .container{
     display: flex;
-    max-width: 900px;
-    padding: 0 2%;
-    margin: 0  auto;
 }
 
 .logo-header{
@@ -82,6 +89,45 @@ header > .container{
     display: inline-block;
     position: relative;
     top: 3px;
+}
+
+.img-perfil-wraper{
+    float: left;
+    width: 50%;
+    padding: 0 50px;
+}
+
+.img-perfil{
+    background-size: 100% 100%;
+    width: 60%;
+    padding-top: 60%;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    background-repeat: no-repeat;
+}
+
+.texto-perfil{
+    float: left;
+    width: 50%;
+}
+
+.nome-perfil span{
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.nome-perfil a.btn-primario{
+    text-decoration: none;
+    margin: 0 8px;
+    color: black;
+    border: 1px solid #dbdbdb;
+    padding: 4px 10px;
+}
+
+.nome-perfil a.btn-sec{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 580px){
